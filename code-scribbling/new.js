@@ -1,4 +1,4 @@
-// Multiplication tables using swith-case-break
+// Multiplication tables solution using swith-case-break
 
 var num = 15;
 switch (num)
