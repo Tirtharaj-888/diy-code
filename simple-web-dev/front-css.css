@@ -8,25 +8,18 @@ header{
   width: 82.5em;
   height:4.5em;
   position: relative;
-  word-spacing: 5em;
 }
-li{
-  display: inline;
-}
-li a{
-  text-decoration: none;
-  color: white;
-}
-nav {
+/* nav {
   position:absolute;
   top:1.6em;
   left:10em;
-}
-.logo img{
+  width: 800px;
+} */
+/* .logo img{
   width: 100px;
   height: 75px;
   padding: 0 4px 0 0px;
-}
+} */
 
 button {
   position: absolute;
@@ -38,7 +31,6 @@ button {
   height: 35px;
   border: 2px solid white;
   background-color: black;
-  border-radius: 10px;
   padding: 1px 30px;
   font-size: 15px;
   font-weight: 590;
@@ -48,9 +40,71 @@ button:hover{
   background-color: white;
   transition-duration: 0.2s;
   color: black;
-}
+} 
 
-body{
+/* body{
   background-image: url('image/bg.jpg');
   background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+#menu-bar{
+  text-align: center;
+  background-color: green;
+  height: 70px;
+}
+
+#menu-bar > ul{
+  display:inline-flex;
+  list-style: none;
+  height: 70px;
+}
+
+#menu-bar > ul > li{
+  width:100px;
+  margin: 15px;
+  padding: 10px;
+}
+
+#menu-bar > ul > li > a{
+  text-decoration: none;
+  color: white;
+}
+#courses-dropdown > ul > li{
+  list-style: none;
+  text-align: center;
+  padding-right: 35px;
+}
+#courses-dropdown{
+  display:none;
+}
+#menu-bar > ul > li:hover
+{
+  background-color: #99cc00;
+  transition-duration: 0.4s;
+}
+#menu-bar ul li:hover + #courses-dropdown{
+  display:block;
+  position:absolute;
+  background: #99cc00;
+  margin-top: 50px;
+  margin-left: 145px;
+}
+
+#courses-dropdown > ul{
+  width: 100px;
+}
+
+#menu-bar > ul > li:hover + #courses-dropdown > ul{
+  display: block;
+}
+
+#courses-dropdown > ul > li:hover{
+  width: 100px;
+  background: #99cc00;
+}
+
+#courses-dropdown a{
+  text-decoration: none;
+  color: white;
 }
