@@ -1,0 +1,23 @@
+if-else
+while
+function
+function expression
+anonymous function
+fat arrow operation
+
+do-while
+for
+for in 
+for of
+forEach
+map
+reduce 
+filter
+includes
+shift
+unshift
+push
+pop
+replace
+replaceAll
+indexOf

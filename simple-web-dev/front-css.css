@@ -70,14 +70,19 @@ button:hover{
   text-decoration: none;
   color: white;
 }
-#courses-dropdown > ul > li{
-  list-style: none;
-  text-align: center;
-  padding-right: 35px;
-}
+
 #courses-dropdown{
+  position: absolute;
+  left: 380px;
+  width: 120px;
+  text-align: center;
   display:none;
 }
+
+#courses-dropdown > ul{
+  list-style: none;
+}
+
 #menu-bar > ul > li:hover
 {
   background-color: #99cc00;
@@ -89,10 +94,6 @@ button:hover{
   background: #99cc00;
   margin-top: 50px;
   margin-left: 145px;
-}
-
-#courses-dropdown > ul{
-  width: 100px;
 }
 
 #menu-bar > ul > li:hover + #courses-dropdown > ul{
