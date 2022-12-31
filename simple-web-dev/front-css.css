@@ -71,6 +71,7 @@ button:hover{
   color: white;
 }
 
+/* courses-dropdown styling below */
 #courses-dropdown{
   position: absolute;
   left: 380px;
@@ -106,6 +107,32 @@ button:hover{
 }
 
 #courses-dropdown a{
+  text-decoration: none;
+  color: white;
+}
+
+/* about-dropdown styling below */
+#about-dropdown{
+  position: absolute;
+  background: #99cc00;
+  left: 675px;
+  top: 55px;
+  width:120px;
+}
+
+#about-dropdown > ul{
+  display:none;
+}
+
+#menu-bar > ul > li:hover + #about-dropdown > ul{
+  display:block;
+}
+
+#about-dropdown > ul > li{
+  list-style: none;
+}
+
+#about-dropdown > ul > li > a{
   text-decoration: none;
   color: white;
 }
