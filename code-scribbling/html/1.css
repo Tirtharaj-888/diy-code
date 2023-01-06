@@ -1,0 +1,45 @@
+table, th, td{
+    border: 1px solid black;
+}
+
+#t2, #t2c{
+    border: 1px solid red;
+}
+
+#t3{
+    border: 1px solid green;
+    border-spacing: 10px;
+}
+#t3c{
+    border: 1px solid orange;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+#t4display{
+    height:45px;
+    text-align:right;
+    font-size:xx-large;
+}
+
+#t4c{
+    text-align: center;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+#t4menupanel{
+    height:25px;
+}
+
+#t4titlepanel{
+    height:20px;
+    padding-left: 20px;
+}
+
+#t4titlepanelview{
+    height:20px;
+    padding-left: 10px;
+    border: 1px solid white;
+}
