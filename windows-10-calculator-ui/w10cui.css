@@ -1,20 +1,10 @@
-table, th, td{
-    border: 1px solid black;
+div{
+    width: 210px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-#t2, #t2c{
-    border: 1px solid red;
-}
-
-#t3{
-    border: 1px solid green;
-    border-spacing: 10px;
-}
-#t3c{
-    border: 1px solid orange;
-    border-radius: 20px;
-    text-align: center;
-    padding: 10px;
+td{
+    border: 1px solid grey;
 }
 
 #t4display{
@@ -28,13 +18,7 @@ table, th, td{
     text-align: center;
     padding: 10px;
     border-radius: 3px;
-}
-
-#t4c{
-    text-align: center;
-    padding: 10px;
-    border-radius: 3px;
-    border-color: grey;
+    border-color: rgb(177, 174, 174);
 }
 
 #t4c:hover{
@@ -114,6 +98,7 @@ button{
 
 #t4A, #t4B, #t4C{
     background-color:#f2f5f7;
+    border: 1px solid rgb(9, 139, 232);
 }
 
 .n7,.n8,.n9,
@@ -147,7 +132,8 @@ button{
     font-size: 10px;
     border-spacing: 5px;
     word-spacing: 9px;
-    border: 1px solid black;
+    border-right: 1px solid rgb(9, 139, 232);
+    border-left: 1px solid rgb(9, 139, 232);
     border-bottom: 1px solid #f2f5f7;
     border-top: 1px solid #f2f5f7;
 }
@@ -169,10 +155,7 @@ button{
     position: absolute;
     left:185px;
 }
-/* .fa-sharp.fa-solid.fa-clock-rotate-left{
-    position: absolute;
-    left:180px;
-} */
+
 .btn-history:hover{
     background-color:rgb(227, 222, 222);
     transition-duration: 0.4s;
@@ -216,4 +199,9 @@ button{
 
 .mc, .mr, .mv{
     color: grey;
+}
+
+.mplus:hover, .mmin:hover, .ms:hover{
+    background-color: rgb(177, 174, 174);
+    transition-duration: 0.2s;
 }
