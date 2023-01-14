@@ -74,3 +74,56 @@
   
 //   var result = calcProduct(100000, 12, 5);
 
+
+// quizzer-app-objectified (How well do You know me?)
+
+// var rls = require('readline-sync');
+// var score = 0;
+
+// var qAOne = {
+//   question: "Where was I born? ",
+//   answer: "Siliguri",
+// }
+
+// var qATwo = {
+//   question: "Where do I live now? ",
+//   answer: "Garia",
+// }
+
+// var QAThree = {
+//   question: "What is my ideal? ",
+//   answer: "Freedom",
+// }
+
+// var QAFour = {
+//   question: "What quality is my favourite? ",
+//   answer: "Bravery",
+// }
+
+// var QAFive = {
+//   question: "Which fruit is my favourite? ",
+//   answer: "Coconut",
+// }
+
+// var quesAnsArray = [qAOne, qATwo, QAThree, QAFour, QAFive];
+
+// function quizzer() {
+//   if (userAns === quesAnsArray[i].answer) {
+//     console.log('Right!');
+//     score = score + 1;
+//     console.log('Your score: ', score);
+//   }
+//   else {
+//     console.log('Wrong!');
+//     score = score - 1;
+//     console.log('Your score: ', score);
+//   }
+// }
+
+// for (i = 0; i < quesAnsArray.length; i++) {
+//   console.log('Run: ', i);
+//   console.log('Question:', i);
+//   var userAns = rls.question(quesAnsArray[i].question);
+//   quizzer();
+//   console.log('\n');
+// }
