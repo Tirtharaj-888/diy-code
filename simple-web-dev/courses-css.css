@@ -47,6 +47,7 @@ ul > li{
   float:left;
   padding: 1em 1em 1em 1em;
   list-style: none;
+
 }
 
 #drop-item:hover #drop-menu{
@@ -55,11 +56,10 @@ ul > li{
 
 #drop-menu{
   display: none;
-  position: relative;
+  position: absolute;
   background-color: limegreen;
   transform: translateX(-20px);
   width: 5em;
-  z-index: 1;
 }
 
 #drop-menu > li{
@@ -75,53 +75,51 @@ ul > li{
 }
 /* HEADER-CSS */
 
-/*BODY-CSS */
+/* BODY-CSS */
 body{
+  /* background-image: url('image/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; */
   overflow-x: hidden;
   overflow-y: scroll;
 }
-/*TESTIMONIAL-CSS*/
-/* .testimonial-slider {
-  display: flex;
-  width: 1050px;
-  flex-wrap: nowrap;
-  overflow-x: scroll;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
+
+.course-cards-box{
+  display:flex;
+  border: 1px solid red;
+  width: 750px;
+  position: absolute;
+  transform: translateX(35%) translateY(75%);
+  z-index: -1;
+  align-items: bottom;
+}
+.course-card{
+  width: 150px;
+  height: 200px;
+  text-align:center;
+  display:inline-block;
+  border: 1px solid sandybrown;
+  margin: 0.2em 0.2em 0.2em 0.2em;
 }
 
- .testimonial-card {
-  scroll-snap-align: start;
-  flex: 0 0 80%;
-  margin-right: 2rem;
-  padding: 1rem;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+.card-image{
+  width: 130px;
+  height: 100px;
+  margin: 0.2em 0.2em 0.2em 0.35em;
 }
-
-.testimonial-image img {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  object-fit: cover;
+img{
+  width: 100%;
+  height: 100%;
+  object-fit:fill
 }
-
-@media screen and (min-width: 1024px) {
-  .testimonial-card {
-    flex: 0 0 40%;
-    margin-right: 4rem;
-  }
-}  */
+.course-card > h2{
+  font-size: 18px;
+  padding: 0em 0.05em 0em 0.05em;
+}
 
 /*FOOTER-CSS */
 footer {
-  transform: translateY(500%);
+  transform: translateY(647%);
   width: 100vw;
   background-color: green;
   font-size: 14px;
@@ -147,22 +145,4 @@ footer {
   color: #555;
 }
 
-/*ACCOM-CAROUSEL-CSS*/
-.accomplishments-carousel{
-  /* border: 1px solid purple; */
-  transform: translateX(80%) translateY(80%);
-  width: 500px;
-  height: 300px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: -15;
-  animation: slider 20s infinite linear;
-}
-
-@keyframes slider{
-  
-  0%{background-image: url('image/accom-1.jpg');z-index: -2;}
-  25%{background-image: url('image/accom-2.jfif');z-index: -2;}
-  50%{background-image: url('image/accom-3.png');z-index: -12;}
-  75%{background-image: url('image/accom-4.jfif');z-index: -12;}
-}
+/* BODY-CSS */

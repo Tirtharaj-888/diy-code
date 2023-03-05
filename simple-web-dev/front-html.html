@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,37 +15,127 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 </style>
+
 <body>
     <header>
-            <!-- <div class="logo">
+        <!-- <div class="logo">
                 <img src="image/Dark Green and Marigold Regular Sports Logo.png">
             </div> -->
-        <div id="menu-bar">
+        <nav>
             <ul>
                 <li id="home"><a href="">Home</a></li>
-                <li id="courses"><a href="#">Courses</a></li>
-                <!-- <div id="helper"> -->
-                    <div id="courses-dropdown">
-                        <ul>
-                            <li><a href="#">CS</a></li>
-                            <li><a href="#">FWD</a></li>
-                            <li><a href="#">BWD</a></li>
-                            <li><a href="#">FSWD</a></li>
-                        </ul>
-                    </div>
-                <!-- </div>     -->
-                <li id="about"><a href="">About</a></li>
-                    <div id="about-dropdown">
-                        <ul>
-                            <li><a href="#">Vision</a></li>
-                            <li><a href="#">Mission</a></li>
-                        </ul>
-                    </div>
+                <li id="drop-item"><a href="courses.html">Courses</a>
+                    <ul id="drop-menu">
+                        <li><a href="#">CS</a></li>
+                        <li><a href="#">Machine Learning</a></li>
+                        <li><a href="#">Basic To Advanced Excel</a></li>
+                        <li><a href="#">Windows OS</a></li>
+                        <li><a href="#">UI Engineering</a></li>
+                        <li><a href="#">FSWD</a></li>
+                    </ul>
+                </li>
+                <li id="drop-item"><a href="">About</a>
+                    <ul id="drop-menu">
+                        <li><a href="#">Vision</a></li>
+                        <li><a href="#">Mission</a></li>
+                    </ul>
+                </li>
                 <li id="contact"><a href="">Contact</a></li>
             </ul>
-        </div>
-        <button style="border-radius:10px;">Call</button>
+            <button id="call-btn" style="border-radius:10px;">Call</button>
+        </nav>
+
     </header>
-    
+    <!-- <div class="testimonial-slider">
+        <div class="testimonial-card">
+            <div class="testimonial-text">
+                <p>I highly recommend this machine learning course to anyone interested in this field! The instructors
+                    are highly knowledgeable and passionate about the subject, and their
+                    teaching style is engaging and effective. I particularly appreciated the hands-on projects and
+                    real-life examples, which helped me practically. Thanks to this
+                    course, I gained a solid foundation in machine learning and was able to advance my career. It was a
+                    great investment of my time and money, and I'm confident that it will be for you too!</p>
+                <h4>Fiji Americana</h4>
+                <span>Recent graduate</span>
+            </div>
+            <div class="testimonial-image">
+                <img src="[Image URL]" alt="[Name]">
+            </div>
+        </div>
+        <div class="testimonial-card">
+            <div class="testimonial-text">
+                <p>I'm so glad I chose this computer science program! The curriculum is comprehensive and up-to-date,
+                    the instructors are knowledgeable and supportive, and the hands-on experience is invaluable. Thanks
+                    to this program, I gained the skills and confidence I needed to succeed in the tech industry. I
+                    highly recommend it to anyone looking to start or advance their career in computer science.</p>
+                <h4>Roman Zealando</h4>
+                <span>Former Research Associate at Feluda Inc.</span>
+            </div>
+            <div class="testimonial-image">
+                <img src="[Image URL]" alt="[Name]">
+            </div>
+        </div>
+        <div class="testimonial-card">
+            <div class="testimonial-text">
+                <p>Amazing faculty! Very generous and loving they are.</p>
+                <h4>Finla Koro</h4>
+                <span>Former Research Associate at Feluda Inc.</span>
+            </div>
+            <div class="testimonial-image">
+                <img src="[Image URL]" alt="[Name]">
+            </div>
+        </div>
+        <div class="testimonial-card">
+            <div class="testimonial-text">
+                <p>I'm so glad I chose this excel program! I
+                    highly recommend this to everyone.</p>
+                <h4>Greek Argen</h4>
+                <span>Former Research Associate at Feluda Inc.</span>
+            </div>
+            <div class="testimonial-image">
+                <img src="[Image URL]" alt="[Name]">
+            </div>
+        </div>
+    </div> -->
+    <div class="accomplishments-carousel">
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+              <h3>Footer Title</h3>
+              <p>Some footer content goes here.</p>
+            </div>
+          </div>
+    </footer>
 </body>
+<!-- <script>
+const slider = document.querySelector(".testimonial-slider");
+let intervalId;
+
+function startAutoSlide() {
+  intervalId = setInterval(() => {
+    const currentCard = document.querySelector(".testimonial-card:first-child");
+    const nextCard = currentCard.nextElementSibling || slider.firstElementChild;
+    slider.scroll({
+      left: nextCard.offsetLeft,
+      behavior: "smooth"
+    });
+  }, 3000); // Adjust the interval time (in milliseconds)
+}
+
+function stopAutoSlide() {
+  clearInterval(intervalId);
+}
+
+slider.addEventListener("mouseover", () => {
+  stopAutoSlide();
+});
+
+slider.addEventListener("mouseout", () => {
+  startAutoSlide();
+});
+
+startAutoSlide();
+</script> -->
+
 </html>

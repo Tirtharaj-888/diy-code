@@ -1,0 +1,5 @@
+1. CSS selector to not select a tag with some class (e.g. form) and show others
+div:not(.form)
+
+2. CSS selector to select links having .pdf in href value
+a[href~='.pdf']
