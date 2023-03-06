@@ -89,7 +89,7 @@ body{
   border: 1px solid red;
   width: 750px;
   position: absolute;
-  transform: translateX(35%) translateY(75%);
+  transform: translateX(70%) translateY(75%);
   z-index: -1;
   align-items: bottom;
 }

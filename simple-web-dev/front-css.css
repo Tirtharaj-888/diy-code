@@ -50,7 +50,7 @@ ul > li{
 }
 
 #drop-item:hover #drop-menu{
-  display: block;
+  display:block;
 }
 
 #drop-menu{
