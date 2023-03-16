@@ -1,5 +1,19 @@
 1. CSS selector to not select a tag with some class (e.g. form) and show others
 div:not(.form)
 
+1b. CSS selector to select a tag with no class (e.g select <tr>...</tr> and reject <tr data-class="3949">...</tr> and variations)
+tr:not([data-class])
+
 2. CSS selector to select links having .pdf in href value
 a[href~='.pdf']
+
+3. A slight styling change in one element can mess up other elements
+
+4. How to fix footer to the bottom, as in how to make it comply to its nature?
+set bottom: 0px; height: 5em; (an e.g)
+
+5. display and position are two extremely important attributes
+
+6. keep the div container fixed when i hover over the dropdown menu
+
+7. position: fixed; of any element affects the scrolling factor of the webpage
