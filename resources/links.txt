@@ -3,3 +3,4 @@
 3.Check your document's SEO score: https://www.seoreviewtools.com/content-analysis/
 4.Check your Keyword volume and difficulty: https://semscoop.com/
 5.Check your longtail keywords: https://www.keyword.io/
+6.How to use Google Search Console: https://support.google.com/webmasters/answer/9128669?utm_source=wnc_20079900&utm_medium=panel&utm_campaign=wnc_20079900&utm_content=msg_20079900&hl=en#zippy=%2Cnot-much-time-to-manage-my-site%2Cbeginning-user-willing-to-learn%2Cseo-advanced-user%2Cweb-developer
